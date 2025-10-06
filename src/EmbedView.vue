@@ -63,7 +63,7 @@ onMounted(() => {
   loadFromQuery()
 
   skleraSDK.loaded(() => {
-    const cfg = skleraSDK.getAppConfig?.() || {}
+    const cfg = skleraSDK.getConfig?.() || {}
     if (!url.value && cfg.url) url.value = cfg.url
     if (!selector.value && cfg.selector) selector.value = cfg.selector
     if (!offset.value && cfg.offset) offset.value = Number(cfg.offset) || 0
