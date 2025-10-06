@@ -1,0 +1,14 @@
+{
+    "manifest_version": 1,
+    "name": "Open Website",
+    "short_name": "openweb",
+    "description": "Webseiten smart öffnen",
+    "author": "Luis",
+    "version": "0.1.1",
+    "offline_enabled": true,
+    "thumbnail": "openweb-bg.jpg",
+    "snapshot": "openweb-bg.jpg",
+    "config": [
+        
+    ]
+}
