@@ -1,9 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import EmbedView from './EmbedView.vue';
+import App from './App.vue';
 
 const routes = [
-  { path: '/', component: EmbedView },           // optional
-  { path: '/embed', component: EmbedView },      // Seite, die das iframe rendert
+  { path: '/', App },           // optional  // Seite, die das iframe rendert
 ];
 
 export const router = createRouter({

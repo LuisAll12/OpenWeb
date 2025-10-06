@@ -4,11 +4,28 @@
     "short_name": "openweb",
     "description": "Webseiten smart öffnen",
     "author": "Luis",
-    "version": "0.1.1",
+    "version": "1.1.1",
     "offline_enabled": true,
     "thumbnail": "openweb-bg.jpg",
     "snapshot": "openweb-bg.jpg",
     "config": [
-        
+        {
+            "name": "url",
+            "label": "URL",
+            "type": "string",
+            "default": "https://expovina.ch/weinschiffe/"
+        },
+        {
+            "name": "selector",
+            "label": "CSS Selector (optional)",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "offset",
+            "label": "Offset (px, optional)",
+            "type": "number",
+            "default": 0
+        }
     ]
 }
