@@ -12,8 +12,10 @@ const ALLOWED_HOSTS = [
   "umb.ch",
   "www.umb.ch",
   "bsse.ethz.ch",
-  "www.bsse.ethz.ch"
-];
+  "www.bsse.ethz.ch",
+  "expovina.ticketino.com",
+  "ticketino.com",
+  "www.ticketino.com"];
 
 function validateUrl(raw) {
   const u = new URL(raw);
